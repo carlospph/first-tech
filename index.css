@@ -1,0 +1,137 @@
+ .lh-101{
+  line-height: 180%;
+ }
+
+ .d-grid-my{
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  gap: 1rem;
+ }
+
+ .btn{
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .btn-full{
+  grid-column: 1/-1;
+ }
+
+ img{
+  width: 100%;
+ }
+
+ .font-16{
+  font-size: 1.4rem;
+ }
+
+.font-2{
+  font-size: 4rem;
+}
+
+
+
+/* section what-tech */
+
+.what-tech{
+  background: linear-gradient(to right, #3516d2, #012734);
+}
+
+
+.mbb{
+  margin-bottom: 4rem;
+}
+
+.title__requisito{
+  font-size: 3.2rem;
+  font-weight: 900;
+  padding-top: 2.8rem;
+}
+.item-list-requisito{
+  padding: .6rem 0;
+  font-size: 1.3rem;
+}
+
+
+
+
+/* section modalidade */
+
+.modalidades{
+  background-color: #193a70;
+  color: white;
+  padding: 5rem 0;
+}
+
+.title__modalidades{
+  text-align: center;
+  margin: 0 auto;
+  max-width: 680px;
+  font-size: 2.7rem;
+}
+
+.mini-card{
+  max-width: 290px;
+  border: 1px solid white;
+  border-radius: 2.2rem;
+  text-align: center;
+  margin: 2rem auto;
+  padding: 1.1rem 1.5rem;
+}
+
+.img-card-modalidades{
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+
+
+
+
+/* section download */
+
+.download-edital{
+  background: linear-gradient(to bottom right, #306ed3, #1a3c72);
+  color: white;
+}
+
+
+
+
+
+
+/* section etapas */
+
+.etapas{
+  background-image: url("https://geracaotech.iel-ce.org.br/wp-content/themes/geracaotech/images/background-left.png");
+  background-repeat: no-repeat;
+background-position: left;
+
+}
+.mini-card-etapas{
+  max-width: 290px;
+  min-width: 300px;
+  color: white;
+  border-radius: 2.2rem;
+  text-align: center;
+  margin: 2rem auto;
+  padding: 1.1rem 1.5rem;
+    background-color: rgb(49, 76, 156);
+
+}
+
+.mini-card-etapa-ii{
+  background-color: royalblue;
+
+ max-width: 290px;
+  min-width: 300px;
+  color: white;
+  border-radius: 2.2rem;
+  text-align: center;
+  margin: 2rem auto;
+  padding: 1.1rem 1.5rem;
+}
